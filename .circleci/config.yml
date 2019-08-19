@@ -24,7 +24,9 @@ jobs:
       - run:
           name: Update Courses
           command: pipenv run python update.py
-
+      - add_ssh_keys:
+          fingerprints:
+            - "10:c3:cd:c1:05:a1:c9:7e:23:05:bc:01:7d:ce:7f:b1"
       - run:
           name: Deploy docs to gh-pages branch
           command: pipenv run mkdocs gh-deploy
