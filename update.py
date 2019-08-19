@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 import codecs
 import os
 
@@ -10,7 +12,7 @@ BIN_URL_PREFIX = 'https://github.com/dlnu-dlmu/EasyExam/raw/master/'
 
 
 def list_files(course: str):
-    filelist_texts = '## 文件列表\n\n'
+    filelist_texts = '# 文件列表\n\n'
     readme_path = ''
     for root, dirs, files in os.walk(course):
         level = root.replace(course, '').count(os.sep)
@@ -34,7 +36,9 @@ def generate_md(course: str, filelist_texts: str, readme_path: str):
     final_texts = ['\n\n', filelist_texts]
     if readme_path:
         with codecs.open(readme_path, 'r',encoding='utf-8') as file:
-            final_texts = file.readlines() + final_texts
+            final_texts = ["# "+ course , "\n\n"] + file.readlines() + final_texts
+    else:
+        final_texts = ["# " + course, "\n\n"] + final_texts
     with codecs.open('docs/{}.md'.format(course), 'w',encoding='utf-8') as file:
         file.writelines(final_texts)
 
