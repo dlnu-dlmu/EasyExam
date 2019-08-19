@@ -9,11 +9,11 @@ jobs:
           name: Install
           command: pipenv install
       - run:
-          name: Update Index
-          command: cp README.md docs/index.md
-      - run:
           name: Update Courses
           command: pipenv run python update.py
+      - run:
+          name: Update Index
+          command: cp README.md docs/index.md
       - add_ssh_keys:
           fingerprints:
             - "10:c3:cd:c1:05:a1:c9:7e:23:05:bc:01:7d:ce:7f:b1"
