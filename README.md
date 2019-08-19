@@ -2,7 +2,7 @@
 
 ## Preface
 
-（引用自 [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) ）
+（以下引用自 [QSCTech/zju-icicles](https://github.com/QSCTech/zju-icicles) ）
 
 来到一所大学，从第一次接触许多课，直到一门一门完成，这个过程中我们时常收集起许多资料和情报。
 
@@ -15,6 +15,14 @@
 我希望能够将这些隐晦的、不确定的、口口相传的资料和经验，变为公开的、易于获取的和大家能够共同完善、积累的共享资料。
 
 **我希望只要是前人走过的弯路，后人就不必再走。** 这是我的信念，也是我建立这个项目的原因。
+
+### Platform
+为什么采用 GitHub 项目作为平台呢？我有以下一些考虑。
+
+- QQ 群大多为年级和专业所分隔，无法长期共同地保有；况且群文件也缺乏组织。
+- GitHub 项目可以使用目录进行文件组织，并且每个目录均可以在显示文件列表的同时显示一个 README，十分适合本项目的需求。
+- GitHub 带有便捷的 Issue 和 Pull Request 协作功能，并且可以方便地对贡献的质量进行监督和调整。
+
 
 ## Contribution
 
