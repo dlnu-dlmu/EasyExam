@@ -28,5 +28,8 @@ jobs:
           fingerprints:
             - "10:c3:cd:c1:05:a1:c9:7e:23:05:bc:01:7d:ce:7f:b1"
       - run:
+          name: Delete All SSH keys and Add the installed one
+          command: ssh-add -D && ssh-add ~/.ssh/id_rsa_10c3cdc105a1c97e2305bc017dce7fb1
+      - run:
           name: Deploy docs to gh-pages branch
           command: pipenv run mkdocs gh-deploy
