@@ -47,8 +47,8 @@ Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！
 2. 上传操作
     - 上传文件到已有文件夹：打开对应文件夹，点击绿色 Download 按钮旁的 upload，上传你的文件。
     - 上传文件到新文件夹：打开任意文件夹，点击绿色 Download 按钮旁的 upload，**把浏览器地址栏中文件夹名称改为你想要新建的文件夹名称，然后回车**，上传你的文件。
-
-3. 提交 PR：Fork 本项目，然后在 GitHub 网页端点击 Upload File 上传文件，发起 PR 即可。留意一下项目的文件组织喔。
+3. 提交 PR   
+总结： Fork 本项目，然后在 GitHub 网页端点击 Upload File 上传文件，发起 PR 即可。留意一下项目的文件组织喔。
 
 ## Related Works
 
@@ -63,3 +63,9 @@ Issue、PR、纠错、资料、选课/考试攻略，完全欢迎！
 - [中山大学课程资料分享](https://github.com/sysuexam/SYSU-Exam)
 - [南京大学课程复习资料](https://github.com/idealclover/NJU-Review-Materials)
 - [郑州大学课程复习资料](https://github.com/CooperNiu/ZZU-Courses-Resource)
+
+
+## 资源推荐
+
+如果你有好的学习资源推荐，欢迎更新。  
+[资源推荐](https://dlnu-dlmu.github.io/EasyExam/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/)
