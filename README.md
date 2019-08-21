@@ -1,5 +1,6 @@
-# [大连民族大学课程资料共享](https://dlnu-dlmu.github.io/EasyExam/)
+# 大连民族大学课程资料共享
 
+网站地址点击[这里](https://dlnu-dlmu.github.io/EasyExam/)  
 
 ## Preface
 
